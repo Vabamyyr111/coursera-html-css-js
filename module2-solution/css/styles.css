@@ -7,9 +7,9 @@
 div > section {
 	height: 250px;
 	width: 90%;
-	border: solid green;
+	border: 1px solid black;
 	margin: 30px;
-	background-color: grey;
+	background-color: #CED1CA;
 }
 
 p{
