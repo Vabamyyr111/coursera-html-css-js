@@ -25,6 +25,20 @@ body {
 	border: 2px solid #fff;
 	background-color: #20B2AA;
 }
+/* Header end*/
+
+/* Main content */
+#main-content .row {
+	background-color: #DEB887;
+}
+.menu-item .menu-item-title {
+	text-align: center;
+	color: #000000;
+}
+.menu-item .menu-item-details {
+	padding: 10px;
+}
+
 
 
 @media (max-width: 767px){
