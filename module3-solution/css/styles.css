@@ -1,6 +1,6 @@
 body {
 	font-size: 20px;
-	color: white;
+	color: black;
 	font-family: 'Oxygen', sans-serif;
 	background-color: coral;
 }
@@ -30,13 +30,33 @@ body {
 /* Main content */
 #main-content .row {
 	background-color: #DEB887;
+	box-shadow: 0 0 50px #fff;
+  	border: 1px solid #fff;
+  	margin: 0;
+
+}
+.menu-item {
+	min-height: 500px;
 }
 .menu-item .menu-item-title {
 	text-align: center;
-	color: #000000;
+	font-weight: lighter; 
+	color: #000;
 }
 .menu-item .menu-item-details {
 	padding: 10px;
+}
+.menu-item a, p {
+	text-decoration: none;
+	text-align: center;
+	font-style: italic;
+	color: #2F4F4F;
+}
+.row .menu-item:nth-child(1){
+	background-color: #FFEBCD;
+}
+.row .menu-item:nth-child(3){
+	background-color: #CD853F;
 }
 
 
